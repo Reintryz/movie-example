@@ -1,6 +1,5 @@
-import React, { Children } from "react";
-
 import Authentication from "../assets/features/auth";
+import { Children } from "react";
 import Details from "../assets/features/details";
 import Home from "../assets/features/home";
 import Layout from "../assets/components/layout";
@@ -32,6 +31,10 @@ export const router = createBrowserRouter([
           {
             path: "/movie",
             element: <Movie />,
+          },
+          {
+            path: "/tv-show",
+            element: <TvShows />,
           },
           {
             path: "/login",

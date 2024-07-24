@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { DetailMovie } from "../movie/type";
 import { getMovieId } from "../movie/api";

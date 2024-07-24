@@ -1,7 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
 
-import React from "react";
-
 const Navbar = () => {
   const navigate = useNavigate();
   const handleLogout = () => {
